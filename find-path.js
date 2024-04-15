@@ -58,16 +58,6 @@ class File {
     }
 }
 
-/*
-  Example input
-  
-  root ->
-    a ->
-      c
-      d
-    b    
-  */
-
 const root = new File('root');
 const [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o] = 'abcdefghijklmno'
     .split('')
